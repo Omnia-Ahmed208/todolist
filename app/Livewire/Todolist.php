@@ -11,6 +11,9 @@ class Todolist extends Component
         if(auth()->user()){
             return view('welcome');
         }
+        else{
+            return view('livewire.todolist');
+        }
     }
 
     public function render()

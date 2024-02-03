@@ -1,6 +1,5 @@
 <div>
-    <div class="todo d-flex flex-column align-items-center justify-content-center text-center"
-    data-aos="zoom-in" data-aos-duration="1000">
+    <div class="todo d-flex flex-column align-items-center justify-content-center text-center">
         <section class="sec1 d-flex flex-column align-items-center py-4 rounded">
             <div class="img-container w-75 rounded-circle">
                 <img src="{{Vite::asset('resources/tools/assets/professional.png')}}" class="img-fluid" alt="">
@@ -11,7 +10,6 @@
                 <button class="started-btn btn p-3 px-5 fs-5 fw-bold">
                     <a href=" {{route('todolist.index')}} " class="text-white text-decoration-none">Get Started</a>
                 </button>
-                <button wire:click="@livewire('todolist')" class="started-btn btn p-3 px-5 text-white fs-5 fw-bold">Get Started</button>
             </div>
         </section>
     </div>
